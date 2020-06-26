@@ -9,13 +9,25 @@
 <h1>Fragrances Green</h1>
 <h2>Welcome to world of green authentic fragrances </h2>
 <img src="image/leaf-305412_1280.png" style="float: left;height: 100px;width: 100px">
-<div class="tab-menu">
-    <a class="tab active" id="Product" onclick="ShowTab('Product','Product')">Product</a>
-    <a class="tab" id="Men" onclick="ShowTab('Men','mencontent')">Men Fragrances</a>
-    <a class="tab" id="Women" onclick="ShowTab('Women','womencontent')">Women Fragrances</a>
-    <a class="tab" id="Unisex" onclick="ShowTab('Unisex','unisexcontent')">Unisex</a>
+<div class="tab">
+    <button class="tablinks" onclick="openF(type,'Men')">Men Fragrances</button>
+    <button class="tablinks" onclick="openF(type,'Women')">Women Fragrances</button>
+    <button class="tablinks" onclick="openF(type,'Unisex')">Unisex Fragrances</button>
 </div>
-<div class="content-tab">
+<div id="Men" class="tabcontent">
+    <h3>Men Fragrances</h3>
+    <p>Fragrances for men</p>
+</div>
+<div id="Women" class="tabcontent">
+    <h3>Women Fragrances</h3>
+    <p>Fragrances for women</p>
+</div>
+<div id="Unisex" class="tabcontent">
+    <h3>Unisex Fragrances</h3>
+    <p>Fragrances for both her and him</p>
+</div>
+
+
 
 </body>
 </html>
